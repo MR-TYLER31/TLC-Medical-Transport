@@ -16,7 +16,7 @@ Transportation Provider"
         />
         <div className="row">
           <div
-            className="col-10 col-sm-6 mx-auto text-left"
+            className="col-12 col-sm-6 mx-auto text-left mb-3"
             style={{ fontSize: "15px" }}
           >
             <p>
@@ -62,7 +62,7 @@ Transportation Provider"
               </button>
             </Link>
           </div>
-          <div className="col-10 col-sm-6 mx-auto text-left">
+          <div className="col-12 col-sm-6 mx-auto text-left">
             <RequestCard/>
             <FindUsCard/>
           </div>
