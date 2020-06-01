@@ -3,7 +3,9 @@ import React from "react";
 const FindUsCard = () => {
   return (
     <div className="card">
-      <h5 className="card-header">Find Us on ECIN</h5>
+      <h5 className="card-header text-white" style={{ background: "#007bff" }}>
+        Find Us on ECIN
+      </h5>
       <div className="card-body">
         <p className="card-text">
           We are now listed and can be easily found on the{" "}
