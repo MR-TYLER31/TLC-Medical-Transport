@@ -56,11 +56,6 @@ Transportation Provider"
               insurance with pre-authorization. Payment is accepted at time of
               service.
             </p>
-            <Link to="/about/">
-              <button className="btn btn-yellow text-uppercase">
-                about page
-              </button>
-            </Link>
           </div>
           <div className="col-12 col-sm-6 mx-auto text-left">
             <RequestCard/>
