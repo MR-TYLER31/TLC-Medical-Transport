@@ -6,9 +6,9 @@ import SEO from "../components/seo";
 import BackgroundSection from "../components/Globals/BackgroundSection";
 import Products from "../components/Product/Products";
 
-const AboutPage = ({ data }) => (
+const ProductPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, "react"]} />
+    <SEO title="Products" keywords={[`gatsby`, `application`, "react"]} />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
       title="Our Products"
@@ -29,4 +29,4 @@ export const query = graphql`
     }
   }
 `;
-export default AboutPage;
+export default ProductPage;
