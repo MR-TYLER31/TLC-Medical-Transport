@@ -25,6 +25,11 @@ class Navbar extends React.Component {
       },
       {
         id: 4,
+        path: "/product",
+        text: "products |"
+      },
+      {
+        id: 5,
         path: "/contact",
         text: "contact"
       }

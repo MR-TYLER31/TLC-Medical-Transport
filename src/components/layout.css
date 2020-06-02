@@ -55,3 +55,15 @@ h1,h2,h3,h4,h5,h6 {
 .footer {
     background: var(--secondaryBlue)
 }
+
+.services {
+    background: var(--mainGrey);
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    #title {
+        font-size: 25px;
+    }
+}
