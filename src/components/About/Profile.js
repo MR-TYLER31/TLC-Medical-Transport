@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import ProfileTitle from "./ProfileTitle";
 import RequestCard from '../Globals/RequestCard'
 import FindUsCard from "../Globals/FindUsCard";
