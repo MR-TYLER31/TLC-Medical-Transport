@@ -6,7 +6,11 @@
     --mainDark: #222;
 }
 
-body {
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     background: var(--mainWhite);
     color: var(--mainDark);
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
