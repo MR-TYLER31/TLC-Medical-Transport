@@ -16,13 +16,14 @@ const BackgroundSection = ({img, styleClass, title, children}) => {
             </h3>
             <h1 className="text-white font-weight-bold">Rest Easy.</h1>
             <Link to="">
-              <button className="btn" style={{ background: "rgb(3, 112, 171)", border: "1px solid white" }}>
+              <Link to="/request"><button className="btn" style={{ background: "rgb(3, 112, 171)", border: "1px solid white" }}>
                 <span style={{ color: "white" }}>
                   Available 24/7
                 </span>
                 <br />
                 <i style={{ color: "white" }}>Request A Ride</i>
               </button>
+              </Link>
             </Link>
           </div>
         </div>

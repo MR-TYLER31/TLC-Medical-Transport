@@ -4,7 +4,10 @@ import { Link } from 'gatsby'
 const RequestCard = () => {
     return (
       <div className="card mb-4">
-        <h5 className="card-header text-white" style={{ background: "#007bff" }}>
+        <h5
+          className="card-header text-white"
+          style={{ background: "rgb(3, 112, 171)" }}
+        >
           Request a Ride Today
         </h5>
         <div className="card-body">
@@ -14,7 +17,7 @@ const RequestCard = () => {
             shortly.
           </p>
           <Link to="">
-            <button className="btn btn-primary">Request a Ride</button>
+            <button className="btn btn-outline-primary">Request a Ride</button>
           </Link>
         </div>
       </div>
