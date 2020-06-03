@@ -15,7 +15,7 @@ const FindUsCard = () => {
           <a href="https://www.extendedcare.com/" target="_blank">
             Extended Care Information Network
           </a>
-          (ECIN) web site!
+          (ECIN) website!
         </p>
       </div>
     </div>

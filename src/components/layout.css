@@ -71,6 +71,14 @@ h1,h2,h3,h4,h5,h6 {
     background: white;;
 }
 
+.contact-icon {
+    background: rgb(3, 112, 171);
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
