@@ -16,6 +16,15 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
+    {
+      resolve: `gatsby-source-stripe`,
+      options: {
+        objects: ["Product"],
+        secretKey: process.env.STRIPE_SECRET_KEY,
+        downloadFiles: false
+      }
+    },
+    "gatsby-plugin-styled-components",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

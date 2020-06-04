@@ -5,8 +5,8 @@ import React from 'react'
         <footer className="footer py-3">
             <div className="container">
                 <div className="row">
-                    <div className="col-10 mx-auto col-md-6 text-white text-center text-capitalize">
-                        <h3>all rights reserved &copy; {new Date().getFullYear().toString()}</h3>
+                    <div className="col-10 mx-auto col-md-12 text-white text-center text-capitalize">
+                        <h3>TLC Ride &copy; {new Date().getFullYear().toString()}</h3>
                     </div>
                 </div>
             </div>

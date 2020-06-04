@@ -10,7 +10,7 @@ const RequestCard = () => {
         >
           Request a Ride Today
         </h5>
-        <div className="card-body">
+        <div className="card-body" style={{ background: "#ece8dc" }}>
           <p className="card-text">
             To request a ride, click on the Request a Ride button below. Fill
             out our form and one of our coordinators will get back to you

@@ -1,4 +1,5 @@
 import React from "react";
+import allScripts from '../../images/allscripts.png'
 
 const FindUsCard = () => {
   return (
@@ -9,7 +10,8 @@ const FindUsCard = () => {
       >
         Find Us on ECIN
       </h5>
-      <div className="card-body">
+      <div className="card-body" style={{ background: "#ece8dc" }}>
+        <img src={allScripts} alt="ECIN" style={{ width: "200px" }} />
         <p className="card-text text-dark">
           We are now listed and can be easily found on the{" "}
           <a href="https://www.extendedcare.com/" target="_blank">

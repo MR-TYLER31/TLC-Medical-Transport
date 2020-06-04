@@ -4,17 +4,17 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import BackgroundSection from "../components/Globals/BackgroundSection";
-import Checkout from '../components/Product/Checkout'
+import Careers from '../components/Careers/Careers'
 
-const ProductPage = ({ data }) => (
+const CareerPage = ({ data }) => (
   <Layout>
-    <SEO title="Products" keywords={[`gatsby`, `application`, "react"]} />
+    <SEO title="Careers" keywords={[`gatsby`, `application`, "react"]} />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="Our Products"
+      title="Join Our Team"
       styleClass="about-background"
     />
-    <Checkout />
+    <Careers />
   </Layout>
 );
 
@@ -29,4 +29,4 @@ export const query = graphql`
     }
   }
 `;
-export default ProductPage;
+export default CareerPage;

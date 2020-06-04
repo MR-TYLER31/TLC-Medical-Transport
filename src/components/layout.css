@@ -86,3 +86,15 @@ h1,h2,h3,h4,h5,h6 {
         font-size: 25px;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .header {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .header-btn {
+        display: block;
+        margin: 0 auto;
+    }
+}
