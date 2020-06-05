@@ -59,9 +59,7 @@ const NavbarLinks = () => {
       <NavItem to="/products">Products</NavItem>
       <NavItem to="/contact">Contact</NavItem>
       <NavItem to="/careers">Careers</NavItem>
-      <NavItem>
-        <FaShoppingCart className="cart-icon snipcart-checkout" />
-      </NavItem>
+      <FaShoppingCart className="cart-icon snipcart-checkout" />
     </>
   );
 };
