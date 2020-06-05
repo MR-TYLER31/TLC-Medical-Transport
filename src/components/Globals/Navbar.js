@@ -48,7 +48,7 @@ const Navbox = styled.div`
     position: fixed;
     width: 100%;
     justify-content: flex-start;
-    padding-top: 10vh;
+    padding-top: 3vh;
     background-color: #fff;
     transition: all 0.3s ease-in;
     top: 8vh;
