@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .cart-icon {
     cursor: pointer;
-    color: var(--mainBlue);
+    color: #940002;
     font-size: 2rem;
 }
 

@@ -3,6 +3,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
+import { FaShoppingCart } from "react-icons/fa";
+
 
 const NavItem = styled(Link)`
   text-decoration: none;
@@ -57,6 +59,9 @@ const NavbarLinks = () => {
       <NavItem to="/products">Products</NavItem>
       <NavItem to="/contact">Contact</NavItem>
       <NavItem to="/careers">Careers</NavItem>
+      <NavItem to="/">
+        <FaShoppingCart className="cart-icon snipcart-checkout" />
+      </NavItem>
     </>
   );
 };

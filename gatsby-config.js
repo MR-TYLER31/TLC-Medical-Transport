@@ -16,14 +16,6 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
-    {
-      resolve: `gatsby-source-stripe`,
-      options: {
-        objects: ["Product"],
-        secretKey: process.env.STRIPE_SECRET_KEY,
-        downloadFiles: false
-      }
-    },
     "gatsby-plugin-styled-components",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -35,6 +27,13 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
       }
     },
+    {
+			resolve: 'gatsby-plugin-snipcart',
+			options: {
+        apiKey: process.env.SNIPCART_API,
+        autopop: true
+			}
+		},
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

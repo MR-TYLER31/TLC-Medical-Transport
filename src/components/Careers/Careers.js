@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contact = () => {
+const Careers = () => {
   return (
     <section className="py-5">
       <div className="container">
@@ -10,4 +10,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Careers;
