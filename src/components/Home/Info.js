@@ -1,33 +1,37 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Title from '../Globals/Title'
+import React from "react";
+
 const Info = () => {
-    return (
-      <section className="py-5">
-        <div className="container">
-          <Title title="our mission" />
-          <div className="row">
-            <div className="col-10 col-sm-8 mx-auto text-center">
-              <p className="lead text-muted mb">
-                Our mission is to provide safe, timely, courteous and
-                personalized transportation services that get you comfortably to
-                and from your destination. TLC MEDICAL TRANSPORT works closely
-                with hospitals, insurance providers, long-term care facilities,
-                healthcare networks and managed care organizations to determine
-                how to best serve our clients in need of non-emergency medical
-                transportation. TLC focuses on ensuring that the patient
-                receives high-quality service at the most efficient cost.
-              </p>
-              <Link to="/about/">
-                <button className="btn btn-yellow text-uppercase">
-                  about page
-                </button>
-              </Link>
-            </div>
+  return (
+    <section className="py-5" style={{ background: "rgb(3, 112, 171)" }}>
+      <div className="container">
+        <h2 style={{fontWeight: 'bold'}} className="text-white mb-5">
+          Providing Door-To-Door Non Emergency Medical Transportation
+        </h2>
+        <div className="row">
+          <div className="col-12 col-sm-6 mx-auto text-center">
+            <p className="lead text-white mb">
+              TLC Medical Transport is a non-emergency medical transportation
+              provider. We are committed to providing the highest quality and
+              most efficient service to our clients throughout the Southern
+              California area. We provide professional door-to-door local and
+              long distance non emergency medical transportation.
+            </p>
+          </div>
+          <div className="col-12 col-sm-6 mx-auto iframe-container">
+            <iframe
+              className="responsive-iframe"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/kIR7sV9MGOY"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
-      </section>
-    );
-}
+      </div>
+    </section>
+  );
+};
 
-export default Info
+export default Info;

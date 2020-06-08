@@ -71,6 +71,8 @@ h1,h2,h3,h4,h5,h6 {
     background: white;;
 }
 
+
+
 .contact-icon {
     background: rgb(3, 112, 171);
     border-radius: 50%;
@@ -78,6 +80,26 @@ h1,h2,h3,h4,h5,h6 {
     width: 100px;
     height: 100px;
     color: white;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 40%;
+    /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    margin: 0 auto;
+    height: 60%;
+    border: none;
 }
 
 /* Media Queries */
@@ -97,4 +119,18 @@ h1,h2,h3,h4,h5,h6 {
         display: block;
         margin: 0 auto;
     }
+}
+
+@media only screen and (max-width: 900px) {
+   .responsive-iframe {
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       width: 80%;
+       margin: 0 auto;
+       height: 100%;
+       border: none;
+   }
 }

@@ -16,7 +16,7 @@ const RequestCard = () => {
             out our form and one of our coordinators will get back to you
             shortly.
           </p>
-          <Link to="">
+          <Link to="/request">
             <button className="btn btn-outline-primary">Request a Ride</button>
           </Link>
         </div>

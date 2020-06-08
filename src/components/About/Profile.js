@@ -2,6 +2,7 @@ import React from "react";
 import ProfileTitle from "./ProfileTitle";
 import RequestCard from '../Globals/RequestCard'
 import FindUsCard from "../Globals/FindUsCard";
+import PartnerCard from '../Globals/PartnersCard';
 
 
 const Profile = () => {
@@ -59,6 +60,7 @@ Transportation Provider"
           <div className="col-12 col-sm-6 mx-auto text-left">
             <RequestCard/>
             <FindUsCard/>
+            <PartnerCard/>
           </div>
         </div>
       </div>

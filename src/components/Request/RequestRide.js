@@ -1,6 +1,7 @@
 import React from 'react'
 import Title from '../Globals/Title'
 import FindUsCard from '../Globals/FindUsCard'
+import PartnersCard from '../Globals/PartnersCard'
 
 const RequestRide = () => {
     return (
@@ -146,6 +147,7 @@ const RequestRide = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-6 pt-5">
               <FindUsCard />
+              <PartnersCard />
             </div>
           </div>
         </div>
