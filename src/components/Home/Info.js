@@ -19,6 +19,7 @@ const Info = () => {
           </div>
           <div className="col-12 col-sm-6 mx-auto iframe-container">
             <iframe
+              title="TLC Video"
               className="responsive-iframe"
               width="560"
               height="315"
