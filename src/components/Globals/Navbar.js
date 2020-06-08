@@ -4,7 +4,7 @@ import Logo from "./Logo"
 import styled from 'styled-components'
 
 const Navigation = styled.nav`
-  height: 10vh;
+  height: 20vh;
   display: flex;
   background-color: #fff;
   position: relative;
@@ -18,7 +18,7 @@ const Navigation = styled.nav`
 
   @media (max-width: 768px) {
     position: sticky;
-    height: 8vh;
+    height: 19vh;
     top: 0;
     left: 0;
     right: 0;
@@ -51,7 +51,7 @@ const Navbox = styled.div`
     padding-top: 3vh;
     background-color: #fff;
     transition: all 0.3s ease-in;
-    top: 8vh;
+    top: 17vh;
     left: ${props => (props.open ? "-100%" : "0")};
   }
 `;

@@ -14,7 +14,11 @@ const FindUsCard = () => {
         <img src={allScripts} alt="ECIN" style={{ width: "200px" }} />
         <p className="card-text text-dark">
           We are now listed and can be easily found on the{" "}
-          <a href="https://www.extendedcare.com/" target="_blank">
+          <a
+            href="https://www.extendedcare.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Extended Care Information Network
           </a>
           (ECIN) website!

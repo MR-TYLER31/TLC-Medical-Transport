@@ -53,6 +53,7 @@ const NavItem = styled(Link)`
 const NavbarLinks = () => {
   return (
     <>
+      {/* <NavItem>San Diego (619) 284-7433</NavItem> */}
       <NavItem to="/">Home</NavItem>
       <NavItem to="/about">About</NavItem>
       <NavItem to="/request">Request a Ride</NavItem>
