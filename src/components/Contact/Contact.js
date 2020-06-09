@@ -50,7 +50,7 @@ const Contact = () =>{
         </div>
         <div className="mt-5" style={{ width: "100vw", height: "50vh" }}>
           <WrappedMap
-            googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBfSz_VuVPwXfiTGVhwe_uhEyf1Ym0l-Z0`}
+            googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.GATSBY_GOOGLE_API_KEY}`}
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `100%` }} />}
             mapElement={<div style={{ height: `100%` }} />}
