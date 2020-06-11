@@ -47,9 +47,6 @@ const NavItem = styled(Link)`
 `;
 
 
-// .active-nav-item {
-//     color: #333333;
-// }
 const NavbarLinks = () => {
   return (
     <>
