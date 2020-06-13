@@ -21,46 +21,52 @@ const RequestRide = () => {
              action="https://formspree.io/tylersnyder619406@gmail.com"
              method="POST"
            >
-             <div className="form-group">
-               <label htmlFor="firstName">First Name</label>
-               <input
-                 type="text"
-                 className="form-control"
-                 name="First Name"
-                 id="firstName"
-                 required
-               />
+             <div className="form-row">
+               <div className="form-group col-md-6">
+                 <label htmlFor="firstName">First Name</label>
+                 <input
+                   type="text"
+                   className="form-control"
+                   name="First Name"
+                   id="firstName"
+                   required
+                 />
+               </div>
+               <div className="form-group col-md-6">
+                 <label htmlFor="lastName">Last Name</label>
+                 <input
+                   type="text"
+                   className="form-control"
+                   name="Last Name"
+                   id="lastName"
+                   required
+                 />
+               </div>
              </div>
-             <div className="form-group">
-               <label htmlFor="lastName">Last Name</label>
-               <input
-                 type="text"
-                 className="form-control"
-                 name="Last Name"
-                 id="lastName"
-                 required
-               />
+
+             <div className="form-row">
+               <div className="form-group col-md-6">
+                 <label htmlFor="phone">Phone</label>
+                 <input
+                   type="text"
+                   className="form-control"
+                   name="Phone"
+                   id="phone"
+                   required
+                 />
+               </div>
+               <div className="form-group col-md-6">
+                 <label htmlFor="email">Email</label>
+                 <input
+                   type="text"
+                   className="form-control"
+                   name="_replyto"
+                   id="email"
+                   required
+                 />
+               </div>
              </div>
-             <div className="form-group">
-               <label htmlFor="phone">Phone</label>
-               <input
-                 type="text"
-                 className="form-control"
-                 name="Phone"
-                 id="phone"
-                 required
-               />
-             </div>
-             <div className="form-group">
-               <label htmlFor="email">Email</label>
-               <input
-                 type="text"
-                 className="form-control"
-                 name="_replyto"
-                 id="email"
-                 required
-               />
-             </div>
+
              <div className="form-group">
                <label htmlFor="time" required>
                  Pickup Time
@@ -132,7 +138,12 @@ const RequestRide = () => {
              <div className="form-group">
                <label htmlFor="needs">Special Needs</label>
                <br />
-               <select name="Needs" id="needs" required="" className="form-control">
+               <select
+                 name="Needs"
+                 id="needs"
+                 required=""
+                 className="form-control"
+               >
                  <option value="Wheel-chair">Wheel-chair</option>
                  <option value="Ambulatory">Ambulatory</option>
                  <option value="Stretcher">Stretcher</option>
