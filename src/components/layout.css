@@ -53,12 +53,12 @@ h1,h2,h3,h4,h5,h6 {
     min-height: 60vh;
 }
 
-.btn-yellow {
-    color: var(--mainBlue);
-    border-color: var(--mainBlue);
+.btn-blue {
+    color: var(--secondaryBlue);
+    border-color: var(--secondaryBlue);
 }
 
-.btn-yellow:hover {
+.btn-blue:hover {
     background: var(--secondaryBlue);
     color: white;
 }

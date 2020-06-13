@@ -19,7 +19,7 @@ const Mission = () => {
                 receives high-quality service at the most efficient cost.
               </p>
               <Link to="/about/">
-                <button className="btn btn-yellow text-uppercase">
+                <button className="btn btn-blue text-uppercase">
                   about page
                 </button>
               </Link>

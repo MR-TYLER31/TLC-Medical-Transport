@@ -17,7 +17,7 @@ const RequestCard = () => {
             shortly.
           </p>
           <Link to="/request">
-            <button className="btn btn-outline-primary">Request a Ride</button>
+            <button className="btn btn-blue">Request a Ride</button>
           </Link>
         </div>
       </div>

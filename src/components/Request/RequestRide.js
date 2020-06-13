@@ -67,17 +67,30 @@ const RequestRide = () => {
                </div>
              </div>
 
-             <div className="form-group">
-               <label htmlFor="time" required>
-                 Pickup Time
-               </label>
-               <input
-                 type="text"
-                 className="form-control"
-                 name="Pickup Time"
-                 id="time"
-               />
+             <div className="form-row">
+               <div className="form-group col-md-6">
+                 <label htmlFor="time" required>
+                   Pickup Time
+                 </label>
+                 <input
+                   type="text"
+                   className="form-control"
+                   name="Pickup Time"
+                   id="time"
+                 />
+               </div>
+               <div className="form-group col-md-6">
+                 <label htmlFor="date">Pick-up Date</label>
+                 <input
+                   type="text"
+                   className="form-control"
+                   name="Date"
+                   id="date"
+                   required
+                 />
+               </div>
              </div>
+
              <label htmlFor="amPm">AM/PM</label>
              <div className="form-check">
                <input
@@ -106,16 +119,6 @@ const RequestRide = () => {
              </div>
 
              <div className="form-group mt-3">
-               <label htmlFor="date">Pick-up Date</label>
-               <input
-                 type="text"
-                 className="form-control"
-                 name="Date"
-                 id="date"
-                 required
-               />
-             </div>
-             <div className="form-group">
                <label htmlFor="pickup">Pick-up Address</label>
                <input
                  type="text"

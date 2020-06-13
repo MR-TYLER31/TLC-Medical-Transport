@@ -20,7 +20,7 @@ const CareerPage = ({ data }) => (
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "products.jpeg" }) {
+    img: file(relativePath: { eq: "career.jpeg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
