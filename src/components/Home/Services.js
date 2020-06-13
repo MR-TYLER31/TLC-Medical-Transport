@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Title from '../Globals/Title'
+import { FaCheck } from "react-icons/fa";
 
 export default class Services extends Component {
     constructor(props) {
@@ -18,10 +19,15 @@ export default class Services extends Component {
                   return (
                     <div
                       key={node.id}
-                      className="col-12 col-md-6 my-2 d-flex mx-auto"
+                      className="col-10 col-sm-6 col-md-4 my-2 d-flex mx-auto"
                     >
                       <div className="flex-grow-1 px-3">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex justify-conetent-center ml-5">
+                          <span className="pr-3 d-inline-block">
+                            <FaCheck
+                              style={{ color: "rgb(3, 112, 171)" }}
+                            ></FaCheck>
+                          </span>
                           <p className="mb-0">{node.title}</p>
                         </div>
                       </div>

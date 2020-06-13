@@ -2,7 +2,7 @@ import React from "react";
 
 const Info = () => {
   return (
-    <section className="py-5" style={{ background: "rgb(3, 112, 171)" }}>
+    <section id="info-section" className="pt-5" style={{ background: "rgb(3, 112, 171)" }}>
       <div className="container">
         <h2 style={{fontWeight: 'bold'}} className="text-white mb-5">
           Providing Door-To-Door Non Emergency Medical Transportation
