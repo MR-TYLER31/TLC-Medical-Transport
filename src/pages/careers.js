@@ -14,19 +14,33 @@ const CareerPage = ({ data }) => (
       title="Join Our Team"
       styleClass="about-background"
     />
-    <Careers />
+    <Careers items={data.jobs} />
   </Layout>
 );
 
 export const query = graphql`
-  {
-    img: file(relativePath: { eq: "career.jpeg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_tracedSVG
-        }
-      }
-    }
-  }
-`;
+         {
+           img: file(relativePath: { eq: "career.jpeg" }) {
+             childImageSharp {
+               fluid {
+                 ...GatsbyImageSharpFluid_tracedSVG
+               }
+             }
+           }
+            jobs: allContentfulJobs {
+                edges {
+                  node {
+                    id
+                    title
+                    description {
+                      description
+                    }
+                    requirements {
+                      requirements
+                    }
+                  }
+                }
+              }   
+         }
+       `;
 export default CareerPage;

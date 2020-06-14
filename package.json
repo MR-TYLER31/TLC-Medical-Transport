@@ -7,6 +7,7 @@
   "dependencies": {
     "@stripe/stripe-js": "^1.6.0",
     "babel-plugin-styled-components": "^1.10.7",
+    "bootstrap": "^4.5.0",
     "dotenv": "^8.2.0",
     "gatsby": "^2.21.37",
     "gatsby-background-image": "^1.1.1",
@@ -23,6 +24,7 @@
     "gatsby-transformer-sharp": "^2.5.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.12.0",
     "react-google-maps": "^9.4.5",
     "react-helmet": "^6.0.0",
