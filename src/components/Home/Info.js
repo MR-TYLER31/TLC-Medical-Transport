@@ -18,7 +18,7 @@ const Info = () => {
           Providing Door-To-Door Non Emergency Medical Transportation
         </h2>
         <div className="row">
-          <div className="col-12 col-sm-10 col-md-6 mx-auto text-center">
+          <div className="col-12 col-sm-10 col-md-6 mx-auto">
             <p className="lead text-white mb">
               TLC Medical Transport is a non-emergency medical transportation
               provider. We are committed to providing the highest quality and

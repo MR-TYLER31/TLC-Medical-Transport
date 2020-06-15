@@ -6,9 +6,9 @@ import { Link } from 'gatsby'
       <footer className="footer py-3">
         <div className="container">
           <nav className="navbar navbar-expand-lg">
-            <a className="text-white pr-3 navbar-brand">
+            <Link to="/" className="text-white pr-3 navbar-brand">
               TLC Ride &copy; {new Date().getFullYear().toString()}
-            </a>
+            </Link>
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <Link className="nav-link text-white" to="/">
