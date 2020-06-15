@@ -33,7 +33,9 @@ export default class Careers extends Component {
                               variant="link"
                               eventKey={node.description}
                             >
-                              <FaArrowCircleDown style={{ fontSize: "25px" }} />
+                              <FaArrowCircleDown
+                                style={{ fontSize: "25px", color: "#940002" }}
+                              />
                             </Accordion.Toggle>
                           </Card.Header>
                           <Accordion.Collapse eventKey={node.description}>
@@ -51,12 +53,34 @@ export default class Careers extends Component {
                               variant="link"
                               eventKey={node.requirements}
                             >
-                              <FaArrowCircleDown style={{ fontSize: "25px" }} />
+                              <FaArrowCircleDown
+                                style={{ fontSize: "25px", color: "#940002" }}
+                              />
                             </Accordion.Toggle>
                           </Card.Header>
                           <Accordion.Collapse eventKey={node.requirements}>
                             <Card.Body>
                               {node.requirements.requirements}
+                            </Card.Body>
+                          </Accordion.Collapse>
+                        </Card>
+
+                        <Card>
+                          <Card.Header>
+                            Apply
+                            <Accordion.Toggle
+                              as={Button}
+                              variant="link"
+                              eventKey={node.apply}
+                            >
+                              <FaArrowCircleDown
+                                style={{ fontSize: "25px", color: "#940002" }}
+                              />
+                            </Accordion.Toggle>
+                          </Card.Header>
+                          <Accordion.Collapse eventKey={node.apply}>
+                            <Card.Body>
+                              {node.apply.apply}
                             </Card.Body>
                           </Accordion.Collapse>
                         </Card>

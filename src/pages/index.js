@@ -9,15 +9,18 @@ import Info from "../components/Home/Info";
 import Services from '../components/Home/Services'
 
 const IndexPage = ({ data }) => (
-
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, 'react']}/>
-    <BackgroundSection img={data.img.childImageSharp.fluid} title="tlc medical transport" styleClass="default-background"/>
-    <Mission/>
+    <SEO title="Home" keywords={[`gatsby`, `application`, "react"]} />
+    <BackgroundSection
+      img={data.img.childImageSharp.fluid}
+      title="tlc medical transport"
+      styleClass="default-background"
+    />
+    <Mission />
     <Info />
-    <Services items={data.services}/>
+    <Services items={data.services} />
   </Layout>
-)
+);
 
 export const query = graphql`
          {

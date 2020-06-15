@@ -38,6 +38,9 @@ export const query = graphql`
                     requirements {
                       requirements
                     }
+                    apply {
+                      apply
+                    }
                   }
                 }
               }   

@@ -1,14 +1,24 @@
 import React from "react";
+// import infoImage from '../../images/info-background.jpeg'
 
+// const infoBackground = {
+//   backgroundImage: `url(${infoImage})`,
+//   backgroundPosition: "center",
+//   backgroundSize: "cover",
+//   opacity: "1 !important"
+// };
 const Info = () => {
   return (
-    <section id="info-section" className="pt-5" style={{ background: "rgb(3, 112, 171)" }}>
+    <section
+      id="info-section"
+      className="pt-5"
+    >
       <div className="container">
-        <h2 style={{fontWeight: 'bold'}} className="text-white mb-5">
+        <h2 style={{ fontWeight: "bold" }} className="text-white mb-5">
           Providing Door-To-Door Non Emergency Medical Transportation
         </h2>
         <div className="row">
-          <div className="col-12 col-sm-6 mx-auto text-center">
+          <div className="col-12 col-sm-10 col-md-6 mx-auto text-center">
             <p className="lead text-white mb">
               TLC Medical Transport is a non-emergency medical transportation
               provider. We are committed to providing the highest quality and
@@ -17,7 +27,7 @@ const Info = () => {
               long distance non emergency medical transportation.
             </p>
           </div>
-          <div className="col-12 col-sm-6 mx-auto iframe-container">
+          <div className="col-10 col-sm-10 col-md-6 mx-auto iframe-container">
             <iframe
               title="TLC Video"
               className="responsive-iframe"
