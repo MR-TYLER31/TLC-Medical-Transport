@@ -18,15 +18,14 @@ export default class Careers extends Component {
           <Title title="Job Openings" />
           <div className="row">          
             {this.state.items.reverse().map(({ node }) => {
-              console.log(node)
               return (
-                <div key={node.id} className="col-12 my-2 d-flex mx-auto">
+                <div key={node.id} className="col-12 my-2">
                   <Card className="card-accordion">
                     <Card.Header>
                       {node.title}
                       <Accordion>
                         <Card>
-                          <Card.Header>
+                          <Card.Header className="card-content">
                             Description
                             <Accordion.Toggle
                               as={Button}
@@ -34,6 +33,7 @@ export default class Careers extends Component {
                               eventKey={node.description}
                             >
                               <FaArrowCircleDown
+                                className="mr-auto"
                                 style={{ fontSize: "25px", color: "#940002" }}
                               />
                             </Accordion.Toggle>
@@ -46,7 +46,7 @@ export default class Careers extends Component {
                         </Card>
 
                         <Card>
-                          <Card.Header>
+                          <Card.Header className="card-content">
                             Requirements
                             <Accordion.Toggle
                               as={Button}
@@ -66,7 +66,7 @@ export default class Careers extends Component {
                         </Card>
 
                         <Card>
-                          <Card.Header>
+                          <Card.Header className="card-content">
                             Apply
                             <Accordion.Toggle
                               as={Button}
@@ -79,9 +79,7 @@ export default class Careers extends Component {
                             </Accordion.Toggle>
                           </Card.Header>
                           <Accordion.Collapse eventKey={node.apply}>
-                            <Card.Body>
-                              {node.apply.apply}
-                            </Card.Body>
+                            <Card.Body>{node.apply.apply}</Card.Body>
                           </Accordion.Collapse>
                         </Card>
                       </Accordion>
